@@ -1,0 +1,89 @@
+html{
+    background-color: #4F709C;
+}
+.container-nav{
+    background-color: #D8C4B6;
+    display: grid;
+    gap: 10px;
+    /* border: 1px solid black; */
+    grid-template-rows: auto;
+    grid-template-columns: auto auto auto ;
+    align-items: center; /* Alinea verticalmente los elementos en el centro */
+     justify-content: flex-start; /*Alinea los elementos al final del eje horizontal */
+    height: auto; /* Altura de ejemplo para el contenedor */
+    border: 1px solid #ccc; /* Borde para visualizar el contenedor */
+}
+.container-footer{
+    background-color: #D8C4B6;
+    display: grid;
+    gap: 10px;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto auto;
+}
+.container-main{
+    background-color:#213555;
+    display: grid;
+    gap: 25px;
+    grid-template-rows: 100px auto;
+    grid-template-columns: auto auto;
+}
+.item{
+    border: solid;
+    gap: 1px;
+    
+}
+.item-nav{
+    justify-self: end;
+}
+.boton{
+    text-align: right;
+    background-color: #213555;
+    color: aliceblue;
+    font-family: monospace;
+    font-size: 30px;
+    margin: 100px;
+    margin-right: 100px;
+    
+}
+img{
+    width: 150px;
+    height: 150px;
+    
+}
+.item-redes{
+    text-align: center;
+    /* width: 180px;
+    height: 180px; */
+}
+.item-3{
+    grid-column-start: 4;
+    grid-column-end: 7;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 200%;
+}
+.item-1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    text-align: center;
+    margin:100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.item-2{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.item-7{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.item-3-main{
+    display: grid;
+    gap: 1px;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+    background-color: #F5EFE7;
+}
+.item-1-main{
+    color: #ccc;
+}
