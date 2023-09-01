@@ -80,10 +80,13 @@ img{
 .item-3-main{
     display: grid;
     gap: 1px;
-    grid-template-rows: auto auto auto;
-    grid-template-columns: auto auto auto;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
     background-color: #F5EFE7;
+    justify-content: center;
+
 }
+
 .item-1-main{
     color: #ccc;
 }
