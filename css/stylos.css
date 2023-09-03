@@ -81,11 +81,18 @@ img{
 .item-3-main{
     display: grid;
     gap: 1px;
+<<<<<<< HEAD
     grid-template-rows: 210px 210px 210px;
     grid-template-columns: 210px 210px 210px;
     background-color: #F5EFE7;
     justify-content: center;
     
+=======
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+    background-color: #F5EFE7;
+    justify-content: center;
+>>>>>>> 4a0463518d4a56f97b7d642db2c4a88083bc069a
 
 }
 
